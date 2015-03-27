@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint InsiteoCocos2D.podspec' to ensure this is a
+#  Be sure to run `pod spec lint InsiteoAPI.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "iOS"
+  s.name         = "InsiteoAPI"
   s.version      = "0.0.1"
-  s.summary      = "A short description of InsiteoCocos2D."
+  s.summary      = "A short description of InsiteoAPI."
 
   s.description  = <<-DESC
-                   A longer description of InsiteoCocos2D in Markdown format.
+                   A longer description of InsiteoAPI in Markdown format.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -89,7 +89,6 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # s.source_files  = "cocos2d/**/*", "CocosDenshion/**/*", "external/**/*"
   # s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "InsiteoAPI/usr/local/include/*.h"
