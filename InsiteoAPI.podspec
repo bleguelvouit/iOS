@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :http => "https://github.com/bleguelvouit/iOS/raw/3.3/libs/InsiteoAPI.zip" }
+  s.source = { :http => "https://github.com/bleguelvouit/iOS/raw/3.3/libs/InsiteoAPI.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
