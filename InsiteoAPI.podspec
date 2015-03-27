@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
   s.source = { :http => "https://github.com/bleguelvouit/iOS/raw/3.3/libs/InsiteoAPI.zip" }
-
+  s.preserve_paths = "InsiteoAPI/**/*"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
