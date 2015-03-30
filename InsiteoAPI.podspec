@@ -80,7 +80,8 @@ Pod::Spec.new do |s|
 
   # s.source = { :path => "/Users/dev_iphone/Dev/git/insiteo/iOS-pod/libs/InsiteoAPI.zip" }
   # s.source = { :http => "http://api.insiteo.com/apidocs/download/temp/InsiteoAPI.zip", :flatten => true }
-  s.source = { :http => "https://github.com/bleguelvouit/iOS/raw/3.3/libs/InsiteoAPI.zip", :flatten => true }
+  # s.source = { :http => "https://github.com/bleguelvouit/iOS/raw/3.3/libs/InsiteoAPI.zip", :flatten => true }
+  s.source = { :path => "libs/InsiteoAPI.zip" }
   s.preserve_paths = "InsiteoAPI.podspec", "libs/InsiteoAPI.zip", "InsiteoAPI/**/*"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
